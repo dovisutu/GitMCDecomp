@@ -7,7 +7,7 @@ on:
       - '**.gradle'
 #  If you can't post workflow_dispatch event, use this
   schedule:
-    - cron: '2/6 * * * *'
+    - cron: '2/3 * * * *'
   workflow_dispatch:
 
 jobs:
